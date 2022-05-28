@@ -14,10 +14,9 @@
 
 ### So, how to install this?
 - Download [archive](https://github.com/supechicken/ChromeOS-Battery/archive/refs/heads/main.zip) of this repository and unzip it
-- Unpack the zip file by:
-  - Double click the zip file in the file manager. The zip file will show contents in what looks like a flash drive
-  - Drag the folder within the zip file into the Downloads folder
-  - Optionally delete the zip file
+- Unpack the downloaded `.zip` file by:
+  - Right click the zip file in the file manager and select <kbd>Extract All</kbd>
+  - Optionally delete the `.zip` file
 - Go to [`chrome://extensions`](chrome://extensions) and enable `Developer Mode` (don't confuse with the **Chrome OS developer mode**, they are not the same thing)
 - Click "Pack Extension", click "Browse" under "Extension Root Directory", then click on the folder named `ChromeOS-Battery-main`, and click <kbd>Open</kbd>
 - Click "Pack Extension", then click <kbd>OK</kbd>

@@ -2,8 +2,7 @@
   <img src="icon.png" alt="logo" />
 </p>
 <h1 align="center">ChromeOS Battery</h1>
-
-## Custom battery level notification for Chrome OS
+<h2 align="center">Custom battery level notification for Chrome OS</h2>
 
 ### Features
 - Set a custom battery level that you want to trigger a notification for it

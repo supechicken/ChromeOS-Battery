@@ -13,7 +13,7 @@
 - Custom message (fullscreen warning/notification)
 
 ### So, how to install this?
-- Download [archive](https://github.com/supechicken/ChromeOS-Battery/archive/refs/tags/main.zip) of this repository and unzip it
+- Download [archive](https://github.com/supechicken/ChromeOS-Battery/archive/refs/heads/main.zip) of this repository and unzip it
 - Unpack the zip file by:
   - Double click the zip file in the file manager. The zip file will show contents in what looks like a flash drive
   - Drag the folder within the zip file into the Downloads folder

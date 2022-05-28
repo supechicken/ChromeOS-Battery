@@ -18,8 +18,8 @@
   - Right click the zip file in the file manager and select <kbd>Extract All</kbd>
   - Optionally delete the `.zip` file
 - Go to [`chrome://extensions`](chrome://extensions) and enable `Developer Mode` (don't confuse with the **Chrome OS developer mode**, they are not the same thing)
-- Click "Pack Extension", click "Browse" under "Extension Root Directory", then click on the folder named `ChromeOS-Battery-main`, and click <kbd>Open</kbd>
-- Click "Pack Extension", then click <kbd>OK</kbd>
+- Click <kbd>Pack Extension</kbd>, click <kbd>Browse</kbd> under <kbd>Extension Root Directory</kbd>, then click on the folder named `ChromeOS-Battery-main`, and click <kbd>Open</kbd>
+- Click <kbd>Pack Extension</kbd>, then click <kbd>OK</kbd>
 - Open the file manager, go to Downloads and drag the `.crx` file into the `chrome://extensions` window.
 - Click <kbd>Add Extension</kbd>
 - Optionally delete the generated `.crx` packaged file and `.pem` key file

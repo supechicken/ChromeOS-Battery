@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon.png" alt="logo" />
+  <img src="icon.svg" alt="logo" />
 </p>
 <h1 align="center">ChromeOS Battery</h1>
 <h2 align="center">Custom battery level notification for Chrome OS</h2>
@@ -27,3 +27,9 @@
 
 ### Why not uploading it to Chrome Web Store?
 Uploading to Chrome Web Store requires a credit/debit card to pay a one-time registration fee, and it only accepts credit/debit card only. The issue is I don't have any credit/debit card (I am only 14) :/
+
+### License
+This project is released under [GNU General Public License (version 3 or later)](http://www.gnu.org/licenses/gpl.txt)
+The icon of this project is created by [Jemis Mali](https://iconscout.com/contributors/jemismali), released under [Creative Commons 4 Attribution - NonCommercial](https://creativecommons.org/licenses/by-nc/4.0/)
+
+

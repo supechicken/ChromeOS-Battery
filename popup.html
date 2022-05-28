@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p id="currentSettings"></p>
+  <div style="display: inline-flex;">
+    <input id="level_input" type="number" placeholder="Set a battery level for alert in %"/>
+    <p style="margin-left: 3px;">%</p>
+  </div>
+
+  <div style="display: inline-flex;">
+    <input name='do_not_show_notification_again' type='checkbox' id='do_not_show_notification_again' />
+    <label for='do_not_show_notification_again'>Do not create a new notification if the previous one is cleared</label>
+  </div>
+
+  <div style="display: inline-flex;">
+    <input name='warning' type='checkbox' id='warning' />
+    <label for='warning'>Show fullscreen warning</label>
+  </div>
+
+  <div id="enable_warning_level_container" style="visibility: hidden; display: inline-flex;">
+    <input name='enable_warning_level' type='checkbox' id='enable_warning_level' />
+    <label for='enable_warning_level'>Configure separate battery level for fullscreen warning: </label>
+  </div>
+
+  <div id="warning_level_input_container" style="visibility: hidden; display: inline-flex;">
+    <input id="warning_level_input" type="number" placeholder="Set a battery level for alert in %"/>
+    <p style="margin-left: 3px;">%</p>
+  </div>
+</body>
+
+<script src="popup.js"></script>
+</html>

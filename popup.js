@@ -90,24 +90,13 @@ document.getElementById('warning_level_input').onkeyup = (e) => {
 });
 
 async function updateSettings (init) {
-  const triggerLevel = await getKeyFromStorage('triggerLevel'),
-        warning_triggerLevel = await getKeyFromStorage('warning_triggerLevel'),
-        currentSettings_element = document.getElementById('currentSettings');
-
   // updateSettings: Update infomation on the top of popup, restore checkbox value if init == true
-  currentSettings_element.innerText += `Configured battery level: `
-  if (triggerLevel) {
-    currentSettings_element.innerText += `${triggerLevel}%\n`
-  } else {
-    currentSettings_element.innerText += `not set\n`
-  }
+  const triggerLevel = await getKeyFromStorage('triggerLevel'),
+        warning_triggerLevel = await getKeyFromStorage('warning_triggerLevel');
 
-  currentSettings_element.innerText += `Configured battery level (fullscreen warning): `
-  if (warning_triggerLevel) {
-    currentSettings_element.innerText += `${warning_triggerLevel}%\n`
-  } else {
-    currentSettings_element.innerText += `not set\n`
-  }
+  document.getElementById('currentSettings').innerText =
+    `Configured battery level: ${triggerLevel ? `${triggerLevel}%` : 'not set'}\n` +
+    `Configured battery level (fullscreen warning): ${warning_triggerLevel ? `${warning_triggerLevel}%` : 'not set'}\n`
 
   if (init) {
     changeCheckboxValue( document.getElementById('do_not_show_notification_again'), await getKeyFromStorage('do_not_show_notification_again') );

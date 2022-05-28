@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon.svg" alt="logo" />
+  <img src="icon.svg" alt="logo" height="256" width="256" />
 </p>
 <h1 align="center">ChromeOS Battery</h1>
 <h2 align="center">Custom battery level notification for Chrome OS</h2>

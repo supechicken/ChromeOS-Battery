@@ -11,7 +11,8 @@
     "default_icon": "icon.png"
   },
   "background": {
-    "scripts": [ "background.js" ]
+    "scripts": [ "background.js" ],
+    "persistent": true
   },
   "permissions": [ "storage", "notifications" ]
 }

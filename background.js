@@ -8,7 +8,12 @@ function getKeyFromStorage (key) {
 
 // prompt user to configure after install
 chrome.runtime.onInstalled.addListener(i => {
-  if (i.reason == 'install') chrome.windows.create({url: 'popup.html', type: 'popup', height: 300, width: 450 })
+  if (i.reason == 'install') {
+    // wait 1 sec before opening the window to prevent the browser from stealing the focus
+    setTimeout(() => {
+      chrome.windows.create({url: 'popup.html', type: 'popup', height: 300, width: 450 })
+    }, 1000);
+  }
 });
 
 (async () => {

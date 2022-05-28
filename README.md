@@ -15,13 +15,14 @@
 ### So, how to install this?
 - Download [archive](https://github.com/supechicken/ChromeOS-Battery/archive/refs/heads/main.zip) of this repository and unzip it
 - Unpack the downloaded `.zip` file by:
-  - Right click the zip file in the file manager and select <kbd>Extract All</kbd>
-  - Optionally delete the `.zip` file
+  - Double click the zip file in the file manager. The zip file will show contents in what looks like a flash drive
+  - Drag the folder within the zip file into the Downloads folder
+  - Optionally delete the zip file
 - Go to [`chrome://extensions`](chrome://extensions) and enable `Developer Mode` (don't confuse with the **Chrome OS developer mode**, they are not the same thing)
-- Click <kbd>Pack Extension</kbd>, click <kbd>Browse</kbd> under <kbd>Extension Root Directory</kbd>, then click on the folder named `ChromeOS-Battery-main`, and click <kbd>Open</kbd>
-- Click <kbd>Pack Extension</kbd>, then click <kbd>OK</kbd>
-- Open the file manager, go to Downloads and drag the `.crx` file into the `chrome://extensions` window.
-- Click <kbd>Add Extension</kbd>
+- Click `Pack Extension`, click `Browse` under `Extension Root Directory`, then click on the folder named `ChromeOS-Battery-main`, and click `Open`
+- Click `Pack Extension`, then click `OK`
+- Open the file manager, go to `Downloads` and drag the `.crx` file into the `chrome://extensions` window.
+- Click `Add Extension`
 - Optionally delete the generated `.crx` packaged file and `.pem` key file
 
 ### Why not uploading it to Chrome Web Store?
@@ -29,6 +30,7 @@ Uploading to Chrome Web Store requires a credit/debit card to pay a one-time reg
 
 ### License
 This project is released under [GNU General Public License (version 3 or later)](http://www.gnu.org/licenses/gpl.txt)
+
 The icon of this project is created by [Jemis Mali](https://iconscout.com/contributors/jemismali), released under [Creative Commons 4 Attribution - NonCommercial](https://creativecommons.org/licenses/by-nc/4.0/)
 
 

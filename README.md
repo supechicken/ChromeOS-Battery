@@ -27,4 +27,4 @@
 - Optionally delete the generated `.crx` packaged file and `.pem` key file
 
 ### Why not uploading it to Chrome Web Store?
-Since uploading to Chrome Web Store requires a credit/debit card to pay a one-time registration fee, and it only accepts credit/debit card only. The issue is I don't have any credit/debit card since I am only 14 :/
+Uploading to Chrome Web Store requires a credit/debit card to pay a one-time registration fee, and it only accepts credit/debit card only. The issue is I don't have any credit/debit card (I am only 14) :/
